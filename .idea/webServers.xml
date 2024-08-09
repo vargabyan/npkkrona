@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="35471c20-c0ca-4b9b-b015-d4bc7674d92d" name="npkkrona" url="http://npkkrona.vm-9aa0b6b3.na4u.ru/">
+        <fileTransfer rootFolder="/home/c84317/npkkrona.vm-9aa0b6b3.na4u.ru/www" accessType="SFTP" host="91.201.52.115" port="22" sshConfigId="33e2cf12-22c2-4578-baab-0416a1f7734f" sshConfig="c84317@91.201.52.115:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
