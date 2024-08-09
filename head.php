@@ -47,9 +47,12 @@
                 <span class="menu_title">Каталог</span>
                 <nav class="menu_nav">
                     <ul>
-                        <li><a href="">О компании</a></li>
-                        <li><a href="">Условия доставки</a></li>
-                        <li><a href="">Контакты</a></li>
+                        <li><a href="">Пункт каталога</a></li>
+                        <li><a href="">Пункт каталога</a></li>
+                        <li><a href="">Пункт каталога</a></li>
+                        <li><a href="">Пункт каталога</a></li>
+                        <li><a href="">Пункт каталога</a></li>
+                        <li><a href="">Пункт каталога</a></li>
                     </ul>
                     <ul>
                         <li><a href="">О компании</a></li>
