@@ -372,7 +372,7 @@ table {
     right: 0;
     display: none;
     flex-direction: column;
-    gap: 10px;
+    gap: 19px;
     border-radius: 10px;
     width: 320px;
     padding: 20px;
@@ -399,7 +399,7 @@ table {
 .menu_nav ul:nth-child(1) {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 19px;
 }
 
 .menu_nav ul:nth-child(1) a {
@@ -441,7 +441,7 @@ table {
 
 .header_menu_content .header_contacts {
     display: flex;
-    margin-top: 20px;
+    margin-top: 9px;
     align-items: start;
 }
 
@@ -586,6 +586,11 @@ table {
     font-weight: 600;
     line-height: clamp(80%, 5vw, 120%);
     letter-spacing: -1.44px;
+}
+
+.bestsellers_btn {
+    min-width: 303px;
+    min-height: 75px;
 }
 
 .bestsellers .slider-section_swiper {
@@ -734,13 +739,13 @@ table {
 }
 
 .cases_show-more {
-    display: none;
+    display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 8px;
     text-decoration: none;
     color: #242424;
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 120%;
 }
@@ -930,6 +935,7 @@ table {
 }
 
 .consultation-specialist_btn {
+    min-height: 75px;
     min-width: 292px;
     border-radius: 12px;
 }
@@ -963,7 +969,17 @@ table {
 }
 
 .popular_tags_item {
+    min-height: 57px;
     white-space: nowrap;
+    background-color: unset;
+    border-radius: 5px;
+    border: 1px solid #E1E1E1;
+}
+
+.popular_tags_item.active {
+    border: 1px solid #2CB3C0;
+    background: #FFF;
+    cursor: default;
 }
 
 .popular .slider-section_swiper {
@@ -1214,6 +1230,7 @@ table {
     background-color: unset;
     cursor: pointer;
     height: max-content;
+    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 500;
     line-height: 120%;
@@ -1442,16 +1459,18 @@ table {
 }
 
 .footer_nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     max-width: 629px;
     width: 100%;
 }
 
 .footer_nav ul {
-    width: 100%;
-    display: grid;
-    grid-template-columns: max-content max-content max-content;
-    align-items: center;
-    justify-content: space-between;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -1466,6 +1485,7 @@ table {
 
 .footer_btn-submit-application {
     min-width: 292px;
+    min-height: 75px;
 }
 
 .footer_contacts {
@@ -1705,8 +1725,15 @@ table {
 
     .bestsellers_header {
         font-size: 28px;
+        line-height: 120%;
         letter-spacing: -0.56px;
     }
+
+    .bestsellers_btn {
+        min-width: 207px;
+        min-height: 40px;
+    }
+
 
     .bestsellers_img-content {
         display: flex;
@@ -1772,7 +1799,9 @@ table {
     }
 
     .cases_show-more {
-        display: flex;
+        gap: 4px;
+        font-size: 14px;
+        line-height: 120%;
     }
 
     .collapse_items-wrapper {
@@ -1816,12 +1845,17 @@ table {
 
     .consultation-specialist_btn {
         min-width: 196px;
+        min-height: 50px;
     }
 
 
     .popular {
         margin-top: 48px;
         padding: 20px 0;
+    }
+
+    .popular .slider-section_header {
+        margin-left: 0;
     }
 
     .slider-section_head-wrapper {
@@ -2046,12 +2080,7 @@ table {
 
     .footer_nav {
         order: 3;
-    }
-
-    .footer_nav ul {
-        display: flex;
         flex-direction: column;
-        align-items: start;
     }
 
     .footer_nav a {
@@ -2062,7 +2091,9 @@ table {
 
     .footer_btn-submit-application {
         order: 2;
+        padding: 16px;
         min-width: 147px;
+        min-height: 49px;
         border-radius: 12px;
     }
 

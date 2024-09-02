@@ -8,13 +8,17 @@
             <nav class="footer_nav">
                 <ul>
                     <li><a href="">Каталог</a></li>
-                    <li><a href="">Новости</a></li>
-                    <li><a href="">Вакансии</a></li>
                     <li><a href="">Контакты</a></li>
-                    <li><a href="">Статьи</a></li>
-                    <li><a href="">Сертификаты</a></li>
                     <li><a href="">О компании</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Статьи</a></li>
                     <li><a href="">Проекты</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Вакансии</a></li>
+                    <li><a href="">Сертификаты</a></li>
                     <li><a href="">Условия доставки</a></li>
                 </ul>
             </nav>

@@ -130,3 +130,18 @@ document.addEventListener('click', e => {
         menu.classList.remove('active');
     }
 })
+
+
+document.addEventListener('click', e => {
+    const item = e.target.closest('[data-popular-btn]');
+
+    if (item) {
+        const wrapper = item.closest('[data-popular-btn-wrapper]');
+        const allItem = wrapper.querySelectorAll('.active[data-popular-btn]');
+
+        allItem.forEach(each => {
+            each.classList.remove('active');
+        })
+        item.classList.add('active');
+    }
+})

@@ -180,10 +180,10 @@
             <button class="news_btn-show-more">Смотреть все</button>
         </div>
         <div class="popular_content">
-            <div class="popular_tags-wrapper">
-                <button class="popular_tags_item btn-secondary">Электродвигатели</button>
-                <button class="popular_tags_item btn-secondary">Редукторы, мотор-редукторы</button>
-                <button class="popular_tags_item btn-secondary">Высоковольтные электродвигатели серии ДАЗО и А4</button>
+            <div class="popular_tags-wrapper" data-popular-btn-wrapper>
+                <button class="popular_tags_item btn-secondary active" data-popular-btn>Электродвигатели</button>
+                <button class="popular_tags_item btn-secondary" data-popular-btn>Редукторы, мотор-редукторы</button>
+                <button class="popular_tags_item btn-secondary" data-popular-btn>Высоковольтные электродвигатели серии ДАЗО и А4</button>
             </div>
             <div class="slider-section_swiper" data-popular-swiper>
                 <div class="swiper-wrapper">
